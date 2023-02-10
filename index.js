@@ -82,7 +82,7 @@ app.use(express.json());
 
 // app.get("/", (req, res) => {          // all frontend requests to non-"/api/v1"
 app.get("/api/v1", (req, res) => {       // all backend request to "/api/v1"
-    res.send("<h2>Hi There</h2>");
+    res.send("<h2>Hi There, Bob</h2>");
     console.log("yeah it ran")
 }); 
 
