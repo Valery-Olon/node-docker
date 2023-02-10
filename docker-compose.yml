@@ -17,7 +17,7 @@ services:
       - mongo
   
   mongo:
-    image: mongo
+    image: mongo:4.4.18
     environment:
       - MONGO_INITDB_ROOT_USERNAME=alb
       - MONGO_INITDB_ROOT_PASSWORD=mypassword
