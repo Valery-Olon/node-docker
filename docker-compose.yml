@@ -17,7 +17,7 @@ services:
       - mongo
   
   mongo:
-    image: mongo:4.4.18
+    image: mongo:4.4.18       # last version of mongo that works with no cpu-AVX support
     environment:
       - MONGO_INITDB_ROOT_USERNAME=alb
       - MONGO_INITDB_ROOT_PASSWORD=mypassword
