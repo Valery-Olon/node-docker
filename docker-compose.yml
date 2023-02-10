@@ -11,6 +11,7 @@ services:
     build: .      # Dockerfile folder path
     # ports:              #no more used because "nginx" container
     #   - "3000:3000"
+    image: 26092011/node-app    #use of image from dockeu-hub
     environment:
       - PORT=3000
     depends_on: 
